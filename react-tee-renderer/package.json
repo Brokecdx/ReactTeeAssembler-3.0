@@ -1,0 +1,30 @@
+{
+  "name": "react-tee-renderer",
+  "version": "3.0.3",
+  "description": "A react version of ngx-teeassembler for rendering Teeworlds skins.",
+  "author": "Brokecdx-",
+  "license": "MIT",
+  "main": "./dist/react-tee-renderer.umd.js",
+  "module": "./dist/react-tee-renderer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-tee-renderer.es.js",
+      "require": "./dist/react-tee-renderer.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "styled-components": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
